@@ -41,4 +41,7 @@ abstract class BaseFragment : Fragment() {
             }
         })
     }
+    fun showToast(msg: String) {
+        Toast.makeText(activity, msg, Toast.LENGTH_LONG).show()
+    }
 }
