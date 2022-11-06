@@ -59,3 +59,4 @@ class SaveReminderFragment : BaseFragment() {
         _viewModel.onClear()
     }
 }
+const val ACTION_GEOFENCE_EVENT = "EVENT.ACTION_GEOFENCE"
